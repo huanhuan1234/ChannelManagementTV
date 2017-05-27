@@ -1,7 +1,7 @@
 package bawei.com.channelmanagementtv.newsdrag.tools;
 
 
-import android.content.Context;
+        import android.content.Context;
 
 public class DataTools {
     /**
@@ -13,7 +13,7 @@ public class DataTools {
     }
 
     /**
-     * px תΪ dip
+     *  px תΪ dip
      */
     public static int px2dip(Context context, float pxValue) {
         final float scale = context.getResources().getDisplayMetrics().density;

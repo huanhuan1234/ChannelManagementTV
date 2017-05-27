@@ -1,7 +1,7 @@
 package bawei.com.channelmanagementtv.newsdrag.db;
 
 
-import android.content.Context;
+        import android.content.Context;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
@@ -16,20 +16,19 @@ public class SQLHelper extends SQLiteOpenHelper {
     public static final String ORDERID = "orderId";
     public static final String SELECTED = "selected";
     private Context context;
-
     public SQLHelper(Context context) {
         super(context, DB_NAME, null, VERSION);
         this.context = context;
     }
 
-    public Context getContext() {
+    public Context getContext(){
         return context;
     }
 
     @Override
     public void onCreate(SQLiteDatabase db) {
         // TODO 创建数据库后，对数据库的操作
-        String sql = "create table if not exists " + TABLE_CHANNEL +
+        String sql = "create table if not exists "+TABLE_CHANNEL +
                 "(_id INTEGER PRIMARY KEY AUTOINCREMENT, " +
                 ID + " INTEGER , " +
                 NAME + " TEXT , " +

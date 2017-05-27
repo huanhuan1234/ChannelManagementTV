@@ -207,24 +207,7 @@ public class MainActivity extends Activity implements OnItemClickListener {
         startActivity(intent);
 
     }
-    /*private void installAPK(File file) {
-        //系统应用界面，源码，安装apk入口
-        Intent intent = new Intent(Intent.ACTION_VIEW);
-        intent.addCategory("android.intent.category.DEFAULT");
-        //文件作为数据源
-        intent.setData(Uri.fromFile(file));
-        //设置安装类型
-        intent.setType("application/vnd.android.package-archive");
-        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-        *//*
-            也可以用下面代码一行完成
-            intent.setDataAndType(Uri.fromFile(file),"application/vnd.android.package-archive");
-         *//*
 
-        startActivity(intent);
-
-
-    }*/
     /** 初始化布局*/
     private void initView() {
         userGridView = (DragGrid) findViewById(R.id.userGridView);

@@ -17,7 +17,6 @@ import org.xutils.x;
 import bawei.com.channelmanagementtv.newsdrag.db.SQLHelper;
 
 
-
 public class IApplication extends Application {
 
     public DbManager.DaoConfig configTj;

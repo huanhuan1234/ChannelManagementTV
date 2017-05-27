@@ -22,7 +22,6 @@ import android.widget.ImageView;
 import bawei.com.channelmanagementtv.newsdrag.adapter.DragAdapter;
 import bawei.com.channelmanagementtv.newsdrag.tools.DataTools;
 
-
 public class DragGrid extends GridView {
     /** 点击时候的X位置 */
     public int downX;
@@ -187,11 +186,11 @@ public class DragGrid extends GridView {
         mDragAdapter.notifyDataSetChanged();
 //		}
     }
-    /**
+/*    *//**
      * 长按点击监听
-//     * @param ev
-     */
-    /*public void setOnItemClickListener(final MotionEvent ev) {
+    // * @param ev
+     *//*
+    public void setOnItemClickListener(final MotionEvent ev) {
         setOnItemLongClickListener(new OnItemLongClickListener() {
 
             @Override
@@ -242,11 +241,6 @@ public class DragGrid extends GridView {
 //                    requestDisallowInterceptTouchEvent(true);
                     return true;
                 }
-
-
-
-
-
                 return false;
             }
         });
@@ -428,6 +422,4 @@ public class DragGrid extends GridView {
             }
         }
     }
-
-
 }
